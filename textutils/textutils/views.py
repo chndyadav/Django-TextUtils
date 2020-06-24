@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 import string
+from django.contrib.auth import user_logged_in
 
 
 def index(request):
